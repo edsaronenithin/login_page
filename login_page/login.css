@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url(./BackgroundImage[1].svg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.log-container{
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    overflow: hidden;
+    width: 800px;
+    max-width: 90%;
+}
+.info{
+    flex: 1;
+    text-align: center;
+    padding: 40px 20px;
+}
+.info .img img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+.info p {
+    font-size: 15px;
+
+}
+.form{
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
+.form h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.form button{
+    background-color: rgba(0, 0, 255, 0.509);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+}
+.form input{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+.form p{
+    font-size: 12px;
+    color: black;
+}
+.form p a{
+    text-decoration: none;
+}
